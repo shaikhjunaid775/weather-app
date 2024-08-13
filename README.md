@@ -9,6 +9,14 @@ This is a weather application built using React. It allows users to search for a
 - **7-Day Forecast:** Shows the weather forecast for the next 7 days.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 
+## Technologies Used
+
+- **React:** JavaScript library for building user interfaces.
+- **Axios:** For making API requests. 
+- **React Router:** For navigation between different views.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **CSS Modules:** Optimized for both desktop and mobile devices.
+
 ## Demo
 
 Check out the live demo of the application [https://shaikhjunaid775.github.io/weather-app/](#).
