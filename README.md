@@ -11,7 +11,7 @@ This is a weather application built using React. It allows users to search for a
 
 ## Demo
 
-Check out the live demo of the application [here](#).
+Check out the live demo of the application [https://shaikhjunaid775.github.io/weather-app/](#).
 
 ## Installation
 
