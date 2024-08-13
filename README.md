@@ -1,8 +1,52 @@
-# React + Vite
+# Weather Application 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a weather application built using React. It allows users to search for a city and view the current temperature along with a 7-day weather forecast.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **City Search:** Enter any city name to get the weather details.
+- **Current Weather:** Displays the current temperature and weather conditions.
+- **7-Day Forecast:** Shows the weather forecast for the next 7 days.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+
+## Demo
+
+Check out the live demo of the application [here](#).
+
+## Installation
+
+Follow these steps to get the application up and running on your local machine:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/weather-app.git
+    cd weather-app
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server:**
+
+    ```bash
+    npm start
+    ```
+
+4. **Open your browser:**
+
+    Navigate to `http://localhost:3000` to view the application.
+
+## API Integration
+
+This application uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data. You need to sign up for an API key.
+
+## Environment Variables
+
+Create a `.env` file in the root directory and add your API key:
+
+```plaintext
+REACT_APP_WEATHER_API_KEY=your_openweather_api_key
