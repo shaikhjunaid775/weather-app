@@ -44,9 +44,3 @@ Follow these steps to get the application up and running on your local machine:
 
 This application uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data. You need to sign up for an API key.
 
-## Environment Variables
-
-Create a `.env` file in the root directory and add your API key:
-
-```plaintext
-REACT_APP_WEATHER_API_KEY=your_openweather_api_key
