@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import rainycloudy from '../assets/icons/animated/rainy-3.svg'
 import lightcloudy from '../assets/icons/animated/rainy-4.svg'
 import moderateRain from '../assets/icons/animated/rainy-1.svg'
@@ -93,7 +93,7 @@ const Weather = ({ weatherData }) => {
      </div>
     </div>
 
-    <div className="flex justify-between mt-12">
+    <div className="flex justify-between mt-12 flex-wrap">
     {dailyForecast.map((day, index) => (
       <div key={index} className="flex flex-col items-center">
         <span className="font-semibold text-sm">{day.date}</span>

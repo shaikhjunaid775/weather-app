@@ -7,9 +7,10 @@ function App() {
   const [data, setData] = useState(null);
   const [location, setLocation] = useState("");
 
-  const API_KEY = "6dc01765ab87e4061df83e55b1c8ff40";
+  // const API_KEY = ;
+  // console.log(import.meta.env.VITE_API_KEY)
 
-  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${API_KEY}&units=metric`;
+  const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${import.meta.env.VITE_API_KEY}&units=metric`;
 
 
   const searchLocation = (event) => {
